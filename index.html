@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Recipe Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="scripts/recipe_cards.js"></script>
+    <script type="module" src="scripts/search_redirect.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="images/TheRecipeRoomLogoLong.png" alt="The Recipe Room Logo" class="logo-long">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/pages/about.html">About</a></li>
+                <li><a href="/pages/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Delicious Recipes</h1>
+                <p>Find your next favorite recipe.</p>
+                <div class="search-container">
+                    <input type="text" id="recipe-search" placeholder="Search for a recipe...">
+                    <button id="search-button" class="btn">Search</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="recipe-list">
+            <h2>Featured Recipes</h2>
+            <div id="recipe-container" class="recipes">
+                <!-- Här stoppas receptkorten in. -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 The Recipe Room. All rights reserved.</p>
+    </footer>
+</body>
+</html>

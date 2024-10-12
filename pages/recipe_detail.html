@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script type="module" src="../scripts/details.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="../images/TheRecipeRoomLogoLong.png" alt="The Recipe Room Logo" class="logo-long">
+            <ul class="nav-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a id="back-button" href="#">Back to Results</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class=horizontal-flex> <!-- Hjälp klass för att placera ut recipe-details och instructions sida vid sida-->
+        <section id="recipe-details" class="recipe-details-container">
+            <!-- Här sätts receptdetaljer in dynamiskt. -->
+        </section>
+    
+
+        <aside class="instructions-ingredients-container">
+            <section id="instructions" class="instructions-section">
+                <h3>Instructions</h3>
+            </section>
+            <section class="ingredients-section">
+                <h3>Ingredients</h3>
+                <table id="ingredients-table">
+                    <thead>
+                        <tr>
+                            <th>Ingredient</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Här stoppas ingredienser och kvantiteter in.-->
+                    </tbody>
+                </table>
+            </section>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 RecipeSite. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
