@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
             recipeDetailsContainer.innerHTML = `
-            <h2>${recipe.title || 'No title available'}</h2>
+            <h1>${recipe.title || 'No title available'}</h1>
             <img src="${recipe.image || 'default-image.jpg'}" alt="${recipe.title || 'Recipe Image'}" />
             <p>${recipe.summary || 'No summary available'}</p>
             <a href="${recipe.sourceUrl || '#'}" class="btn">View Full Recipe on Original Website</a>`;
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     async function fetchRecipeDetailsFromAPI(recipeId) { // Hämtar receptdetaljer från API.
-        const apiKey = '991c0dd12e964f6382b67c248483b7de';
+        const apiKey = '5aae3ecf799d4622b3b34d3cfd55a76c';
         try {
             const response = await fetch(`https://api.spoonacular.com/recipes/${recipeId}/information?apiKey=${apiKey}`);
             const recipe = await response.json();

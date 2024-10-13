@@ -447,7 +447,7 @@ background-color: #d35a5c;
 }
 
 /* Hero Section Styles */
-.hero {
+.start {
 height: 20rem;
 display: flex;
 align-items: center;
@@ -456,12 +456,12 @@ text-align: center;
 color: #474747;
 }
 
-.hero-text h1 {
+.startside-text h1 {
 font-size: 3rem;
 margin-bottom: 1rem;
 }
 
-.hero-text p {
+.startside-text p {
 font-size: 1.2rem;
 margin-bottom: 2rem;
 }

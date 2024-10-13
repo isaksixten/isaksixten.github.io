@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const recipeContainer = document.getElementById('recipe-container');
     const searchButton = document.getElementById('search-button');
     const searchInput = document.getElementById('recipe-search');
-    const apiKey = '991c0dd12e964f6382b67c248483b7de'; // Tagit bort min API-key inför inlämning
+    const apiKey = '5aae3ecf799d4622b3b34d3cfd55a76c'; // Tagit bort min API-key inför inlämning
 
     //Hämta recept från spoonacular API.
     async function fetchRecipes(query = '', isResultsPage = false) {
@@ -71,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
         img.src = recipe.image;
         img.alt = recipe.title;
         recipeCard.appendChild(img);
-        const title = document.createElement('h3');
+        const title = document.createElement('h2');
         title.textContent = recipe.title;
         recipeCard.appendChild(title);
         recipeCard.appendChild(create_view_button(viewButtonLink));
