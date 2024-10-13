@@ -452,7 +452,7 @@ transition: background-color 0.3s;
 background-color: #d35a5c;
 }
 
-/* Hero Section Styles */
+/* Startsidaspecifika element*/
 .start {
 height: 20rem;
 display: flex;
@@ -544,12 +544,11 @@ margin-top: auto;
 transform: scale(1.05);
 }
 
-/* Recipe Details Section */
+/* Receptdetaljsida */
 
-.horizontal-flex {
-display:flex;
-flex-direction: row;
-justify-content: space-between;
+.horizontal-grid {
+display: grid;
+grid-auto-flow: column;
 }
 
 .recipe-details-container {
@@ -594,7 +593,7 @@ text-align: center;
 background-color: #d35a5c;
 }
 
-/* Ingredients Section */
+/* Ingredienser */
 .instructions-ingredients-container{
 display: flex;
 flex-direction: column;
