@@ -415,6 +415,12 @@ footer p {
 margin: 0;
 }
 
+/* Sökruta stil */
+label {
+    font-size: medium;
+    color: #474747;
+}
+
 .search-container {
 display: flex;
 justify-content: center;
@@ -459,11 +465,6 @@ color: #474747;
 .startside-text h1 {
 font-size: 3rem;
 margin-bottom: 1rem;
-}
-
-.startside-text p {
-font-size: 1.2rem;
-margin-bottom: 2rem;
 }
 
 .btn {
