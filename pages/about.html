@@ -9,7 +9,11 @@
 <body>
     <header>
         <nav class="navbar">
-            <img src="../images/TheRecipeRoomLogoLong.png" alt="The Recipe Room Logo" class="logo-long">
+            <picture>
+                <source media="(max-width: 600px)" srcset="../images/TheRecipeRoomLogo.svg" class="logo" alt="The recipe room logo">
+                <source media="(min-width: 601px)" srcset="../images/TheRecipeRoomLogoLong.png" class="logo" alt="The recipe room logo">
+                <img src="images/TheRecipeRoomLogoLong.png" class="logo" alt="The recipe room logo">
+            </picture>
             <ul class="nav-links">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -22,7 +26,7 @@
         <section class="about">
             <h1>About RecipeSite</h1>
             <p>RecipeSite was created to bring delicious recipes from around the world directly to your kitchen. Whether you’re looking for quick dinner ideas or gourmet dishes, we have something for everyone.</p>
-            <p>Our goal is to provide home cooks and food enthusiasts with easy-to-follow recipes and inspiration to create tasty meals for family and friends.</p>
+            <p>Our goal is to provide home cooks and motivated training enthusiasts with easy-to-follow recipes and inspiration to create tasty meals for family and friends.</p>
         </section>
     </main>
 

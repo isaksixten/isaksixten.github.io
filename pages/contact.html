@@ -9,7 +9,11 @@
 <body>
     <header>
         <nav class="navbar">
-            <img src="../images/TheRecipeRoomLogoLong.png" alt="The Recipe Room Logo" class="logo-long">
+            <picture>
+                <source media="(max-width: 600px)" srcset="../images/TheRecipeRoomLogo.svg" class="logo" alt="The recipe room logo">
+                <source media="(min-width: 601px)" srcset="../images/TheRecipeRoomLogoLong.png" class="logo" alt="The recipe room logo">
+                <img src="images/TheRecipeRoomLogoLong.png" class="logo" alt="The recipe room logo">
+            </picture>
             <ul class="nav-links">
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>

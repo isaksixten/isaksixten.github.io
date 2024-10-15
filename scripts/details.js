@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>${recipe.summary || 'No summary available'}</p>
             <a href="${recipe.sourceUrl || '#'}" class="btn">View Full Recipe on Original Website</a>`;
 
-            instructions.innerHTML = `
+            instructions.innerHTML += `
             <p>${recipe.instructions || 'No instructions available'}<p>`
 
             populateIngredientsTable(recipe.extendedIngredients)

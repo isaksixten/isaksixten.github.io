@@ -10,7 +10,11 @@
 <body>
     <header>
         <nav class="navbar">
-            <img src="../images/TheRecipeRoomLogoLong.png" alt="The Recipe Room Logo" class="logo-long">
+            <picture>
+                <source media="(max-width: 600px)" srcset="../images/TheRecipeRoomLogo.svg" class="logo" alt="The recipe room logo">
+                <source media="(min-width: 601px)" srcset="../images/TheRecipeRoomLogoLong.png" class="logo" alt="The recipe room logo">
+                <img src="images/TheRecipeRoomLogoLong.png" class="logo" alt="The recipe room logo">
+            </picture>
             <ul class="nav-links">
                 <li><a href="../index.html">Home</a></li>
                 <li><a id="back-button" href="#">Back to Results</a></li>
@@ -18,7 +22,7 @@
         </nav>
     </header>
 
-    <main class=horizontal-grid> <!-- Hjälp klass för att placera ut recipe-details och instructions sida vid sida-->
+    <main class= grid> <!-- Hjälp klass för att placera ut recipe-details och instructions sida vid sida-->
         <section id="recipe-details" class="recipe-details-container">
             <!-- Här sätts receptdetaljer in dynamiskt. -->
         </section>
