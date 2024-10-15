@@ -493,27 +493,41 @@ font-size: 1rem;
 transition: background-color 0.3s;
 }
 
+/* margin för contact och about */
+.about {
+    margin: 2rem;
+}
+
+.contact {
+    margin: 2rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .btn:hover {
 background-color: #d35a5c;
 }
 
 /* Stil för sektionen med receptkort */
 .recipe-list {
+text-align: center;
 padding: 2rem 1rem;
 max-width: 70%;
 margin: 0 auto;
 }
 
-.recipe-list h2 {
-text-align: center;
-margin-bottom: 2rem;
+.recipe-list h1 {
 font-size: 2rem;
 color: #333;
 }
 
 .recipes {
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+grid-template-columns: repeat(5, 1fr);
 gap: 2rem;
 justify-content: center;
 }

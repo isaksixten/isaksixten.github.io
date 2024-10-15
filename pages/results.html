@@ -6,6 +6,7 @@
     <title>Search Results</title>
     <link rel="stylesheet" href="../css/style.css">
     <script type="module" src="../scripts/recipe_cards.js"></script>
+    <script type="module" src="../scripts/search_redirect.js"></script>
 </head>
 <body>
     <header>
@@ -23,12 +24,11 @@
         </nav>
     </header>
 
-    <section class="search-container">
-        <input type="text" id="recipe-search" placeholder="Search for a recipe..." value="">
-        <button id="search-button" class="btn">Search</button>
-    </section>
-
     <main>
+        <section class="search-container">
+            <input type="text" id="recipe-search" placeholder="Recipe name...">
+            <button id="search-button" class="btn">Search</button>
+        </section>
         <section class="recipe-list">
             <h1>Search Results</h1>
             <div id="recipe-container" class="recipes">
@@ -38,7 +38,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2024 RecipeSite. All rights reserved.</p>
+        <p>&copy; 2024 The Recipe Room. All rights reserved.</p>
     </footer>
 </body>
 </html>

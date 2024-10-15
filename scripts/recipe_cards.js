@@ -1,7 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     const recipeContainer = document.getElementById('recipe-container');
-    const searchButton = document.getElementById('search-button');
-    const searchInput = document.getElementById('recipe-search');
     const apiKey = '5aae3ecf799d4622b3b34d3cfd55a76c'; // Tagit bort min API-key inför inlämning
 
     //Hämta recept från spoonacular API.
