@@ -521,13 +521,13 @@ margin: 0 auto;
 }
 
 .recipe-list h1 {
-font-size: 2rem;
-color: #333;
+    font-size: 2rem;
+    color: #333;
 }
 
 .recipes {
 display: grid;
-grid-template-columns: repeat(5, 1fr);
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 gap: 2rem;
 justify-content: center;
 }
@@ -536,7 +536,6 @@ justify-content: center;
 background-color: #fff;
 border-radius: 10px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-flex: 0 0 calc(20% - 1rem);
 overflow: hidden;
 display: flex;
 flex-direction: column;
